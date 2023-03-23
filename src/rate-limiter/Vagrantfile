@@ -23,4 +23,6 @@ Vagrant.configure("2") do |config|
   # IMP - ctrl+c over vagrant (v2.3.4) ssh will exit session
   #   use this snippet to setup access over regular ssh
   #   https://github.com/hashicorp/vagrant/issues/12908
+  #     vagrant ssh-config --host <vm_name> > ~/.ssh/config.d/<vm_name>
+  #     ssh <vm_name>
 end
