@@ -1,5 +1,5 @@
 # python virtual env
-*myenv
+venv-*
 
 # vagrant
 *.vagrant
