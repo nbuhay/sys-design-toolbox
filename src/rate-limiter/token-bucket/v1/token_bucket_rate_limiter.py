@@ -71,7 +71,6 @@ def healthcheck():
     start_time = datetime.datetime.fromtimestamp(process.create_time())
     uptime = datetime.datetime.now() - start_time
     res = make_response({"uptime": uptime.total_seconds()})
-    print(type(res))
     return res
 
 
